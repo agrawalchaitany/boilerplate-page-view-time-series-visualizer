@@ -4,7 +4,7 @@ import matplotlib as mpl
 
 class DataCleaningTestCase(unittest.TestCase):
     def test_data_cleaning(self):
-        actual = actual = time_series_visualizer.df['value'].count()
+        actual = time_series_visualizer.df['value'].count()
         expected = 1238
         self.assertEqual(actual, expected, "Expected DataFrame count after cleaning to be 1238.")
 
